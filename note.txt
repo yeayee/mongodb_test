@@ -1,0 +1,27 @@
+
+def download(file_path):
+    """
+    执行下载，支持断点续传
+    """
+    import os
+    file_name = file_path.split('/')[-1]
+    save_file_path = '../static/download/'+file_name
+    print file_name
+    print save_file_path
+    # 伪装浏览器，组装下载命令
+    cmd = "wget --user-agent=\"%s\" -c -O %s %s" % (header['User-Agent'], save_file_path, file_path)
+    print cmd
+    os.system(cmd)
+
+
+
+def is_chinese(uchar):
+    """
+    判断一个unicode是否是汉字，可以用在GUTHUB中.md字段是否存在中文，以判断作者为中国人
+    """
+    if u'\u4e00' <= uchar <= u'\u9fa5':
+        return True
+    else:
+        return False
+
+

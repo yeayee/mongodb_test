@@ -1,0 +1,10 @@
+2016-04-11 16:23:49 - mongodb - mongo.py - [line:142] - INFO - 删除成功，删除行数0
+2016-04-11 16:23:49 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：1；更新数量：1
+2016-04-11 16:23:49 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：3；更新数量：3
+2016-04-11 16:23:49 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：1；更新数量：1
+2016-04-11 16:23:49 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：1；更新数量：1
+2016-04-11 17:22:17 - mongodb - mongo.py - [line:142] - INFO - 删除成功，删除行数3
+2016-04-11 17:22:17 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：1；更新数量：1
+2016-04-11 17:22:17 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：3；更新数量：3
+2016-04-11 17:22:17 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：1；更新数量：1
+2016-04-11 17:22:17 - mongodb - mongo.py - [line:127] - INFO - 更新成功，匹配数量：1；更新数量：1
