@@ -1,5 +1,5 @@
 # encoding: utf-8
-__author__ = 'yeayee'
+__author__ = 'yeayee.com'
 
 
 from pymongo import MongoClient
